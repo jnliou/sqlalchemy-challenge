@@ -1,7 +1,9 @@
 ## SQLAlchemy-Challenge
 This repository contains code for performing climate analysis and exploration using SQLAlchemy and Flask. The purpose of this project is to analyze climate data in Hawaii stored in a SQLite database and provide query results through a web browser using Flask.
 
-# Part 1 - Climate Analysis and Exploration
+# Part 1 - Climate Analysis and Exploration 
+File named: climate_starter.ipynb
+
 1. Connect to the SQLite database using SQLAlchemy and reflect the tables into classes using SQLAlchemy's automap_base() function.
 
 2. Perform precipitation analysis:
@@ -24,6 +26,8 @@ This repository contains code for performing climate analysis and exploration us
 - Plot the results as a histogram with bins=12 (See Temperature from 2016-08-23 to 2017-08-23 for station USC00519281.png for your reference).
 
 # Part 2 - Climate App
+File named: app.py
+
 Design a Flask API based on the analysis and queries developed in Step 1. The following routes are available:
 
 - /: Home page that lists all available routes.
