@@ -13,8 +13,7 @@ from flask import Flask, jsonify
 #################################################
 # Database Setup
 #################################################
-engine = create_engine("sqlite:///C:/Users/Julia/Desktop/GithubRepo/sqlalchemy-challenge/SurfsUp/Resources/hawaii.sqlite")
-
+engine = create_engine("sqlite:///sqlalchemy-challenge\SurfsUp\Resources\hawaii.sqlite") 
 # reflect an existing database into a new model
 Base = automap_base()
 # reflect the tables
